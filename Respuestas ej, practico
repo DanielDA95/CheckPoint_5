@@ -1,0 +1,33 @@
+#Bucle FOR Ejercicio 1
+for num in range(1, 11):
+    print(num)
+
+
+
+#Ejercicio 2 
+def suma(a, b, c):
+    return a + b + c
+
+# Ejemplo de uso
+resultado = suma(5, 10, 3)
+print(f"La suma es: {resultado}")
+
+
+
+#Ejercicio 3
+suma_lambda = lambda a, b, c: a + b + c
+
+resultado = suma_lambda(5, 10, 3)
+print(f"La suma es: {resultado}")
+
+
+
+
+#Ejercicio 4
+nombre = 'Enrique'
+lista_nombres = ['Jessica', 'Paul', 'George', 'Henry', 'Adán']
+
+if nombre in lista_nombres:
+    print("El nombre está en la lista")
+else:
+    print("El nombre no está en la lista")
